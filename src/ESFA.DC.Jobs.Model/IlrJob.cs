@@ -1,14 +1,13 @@
 ﻿using System;
+using ESFA.DC.Jobs.Model.Base;
 using ESFA.DC.Jobs.Model.Enums;
 using ESFA.DC.JobStatus.Interface;
 
 namespace ESFA.DC.Jobs.Model
 {
-    public class Job
+    public class IlrJob : IJob
     {
-        public long JobId { get; set; }
-
-        public JobType JobType { get; set; }
+        public JobType JobType { get;} = JobType.IlrSubmission;
 
         public long? Ukprn { get; set; }
 
@@ -24,6 +23,16 @@ namespace ESFA.DC.Jobs.Model
 
         public string SubmittedBy { get; set; }
 
-        public IJobMetaData JobMetaData { get; set; }
+        public string StorageReference { get; set; }
+
+        public string FileName { get; set; }
+
+        public decimal FileSize { get; set; }
+
+        public bool IsFirstStage { get; set; }
+
+        public long JobId { get; set; }
+
+        public int TotalLearners { get; set; }
     }
 }
