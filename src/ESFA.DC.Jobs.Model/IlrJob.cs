@@ -1,4 +1,5 @@
 ﻿using System;
+using ESFA.DC.Jobs.Model.Base;
 using ESFA.DC.Jobs.Model.Enums;
 using ESFA.DC.JobStatus.Interface;
 
@@ -21,11 +22,17 @@ namespace ESFA.DC.Jobs.Model
         public string RowVersion { get; set; }
 
         public string SubmittedBy { get; set; }
+
         public string StorageReference { get; set; }
+
         public string FileName { get; set; }
+
         public decimal FileSize { get; set; }
+
         public bool IsFirstStage { get; set; }
+
         public long JobId { get; set; }
+
         public int TotalLearners { get; set; }
     }
 }
