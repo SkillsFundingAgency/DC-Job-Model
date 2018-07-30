@@ -7,7 +7,7 @@ namespace ESFA.DC.Jobs.Model
 {
     public class IlrJob : IJob
     {
-        public JobType JobType { get;} = JobType.IlrSubmission;
+        public JobType JobType { get; } = JobType.IlrSubmission;
 
         public long? Ukprn { get; set; }
 

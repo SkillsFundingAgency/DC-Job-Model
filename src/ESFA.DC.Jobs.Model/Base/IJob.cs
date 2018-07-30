@@ -8,7 +8,7 @@ namespace ESFA.DC.Jobs.Model.Base
     {
         long JobId { get; set; }
 
-        JobType JobType { get;}
+        JobType JobType { get; }
 
         JobStatusType Status { get; set; }
 
@@ -19,6 +19,5 @@ namespace ESFA.DC.Jobs.Model.Base
         string RowVersion { get; set; }
 
         string SubmittedBy { get; set; }
-
     }
 }
