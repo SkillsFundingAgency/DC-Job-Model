@@ -38,5 +38,7 @@ namespace ESFA.DC.Jobs.Model
         public int PeriodNumber { get; set; }
 
         public string CollectionName { get; set; }
+
+        public string NotifyEmail { get; set; }
     }
 }
