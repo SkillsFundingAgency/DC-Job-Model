@@ -19,5 +19,7 @@ namespace ESFA.DC.Jobs.Model.Base
         string RowVersion { get; set; }
 
         string SubmittedBy { get; set; }
+
+        string NotifyEmail { get; set; }
     }
 }
