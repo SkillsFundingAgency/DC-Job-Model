@@ -33,8 +33,6 @@ namespace ESFA.DC.Jobs.Model
 
         public long JobId { get; set; }
 
-        public int TotalLearners { get; set; }
-
         public int PeriodNumber { get; set; }
 
         public string CollectionName { get; set; }
