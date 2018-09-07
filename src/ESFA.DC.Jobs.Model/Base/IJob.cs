@@ -8,7 +8,7 @@ namespace ESFA.DC.Jobs.Model.Base
     {
         long JobId { get; set; }
 
-        JobType JobType { get; }
+        JobType JobType { get; set; }
 
         JobStatusType Status { get; set; }
 
