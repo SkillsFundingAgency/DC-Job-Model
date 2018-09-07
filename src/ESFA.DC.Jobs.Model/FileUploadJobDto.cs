@@ -6,7 +6,7 @@ namespace ESFA.DC.Jobs.Model
     {
         public short JobType { get; set; }
 
-        public long? Ukprn { get; set; }
+        public long Ukprn { get; set; }
 
         public short Priority { get; set; }
 
