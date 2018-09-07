@@ -5,9 +5,9 @@ using ESFA.DC.JobStatus.Interface;
 
 namespace ESFA.DC.Jobs.Model
 {
-    public class IlrJob : IJob
+    public class FileUploadJob : IJob
     {
-        public JobType JobType { get; } = JobType.IlrSubmission;
+        public JobType JobType { get; set; }
 
         public long? Ukprn { get; set; }
 
