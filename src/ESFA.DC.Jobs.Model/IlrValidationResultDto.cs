@@ -2,7 +2,7 @@
 
 namespace ESFA.DC.Jobs.Model.Reports.ValidationReport
 {
-    public class IlrValidationResult
+    public class IlrValidationResultDto
     {
         public int TotalLearners { get; set; }
 

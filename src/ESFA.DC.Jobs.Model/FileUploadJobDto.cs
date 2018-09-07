@@ -1,13 +1,10 @@
 ﻿using System;
-using ESFA.DC.Jobs.Model.Base;
-using ESFA.DC.Jobs.Model.Enums;
-using ESFA.DC.JobStatus.Interface;
 
 namespace ESFA.DC.Jobs.Model
 {
-    public class FileUploadJob : IJob
+    public class FileUploadJobDto
     {
-        public JobType JobType { get; set; }
+        public short JobType { get; set; }
 
         public long? Ukprn { get; set; }
 
@@ -17,7 +14,7 @@ namespace ESFA.DC.Jobs.Model
 
         public DateTime? DateTimeUpdatedUtc { get; set; }
 
-        public JobStatusType Status { get; set; }
+        public short Status { get; set; }
 
         public string RowVersion { get; set; }
 
