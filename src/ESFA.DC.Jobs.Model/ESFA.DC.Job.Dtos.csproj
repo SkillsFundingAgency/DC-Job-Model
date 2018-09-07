@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>ESFA.DC.Job.Dtos</PackageId>
+    <Authors>ESFA.DC.Job.Dtos</Authors>
+    <Company>ESFA.DC.Job.Dtos</Company>
+    <AssemblyName>ESFA.DC.Job.Dtos</AssemblyName>
+    <RootNamespace>ESFA.DC.Job.Dtos</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -14,7 +19,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ESFA.DC.JobStatus.Interface" Version="0.1.12-beta0001" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.0.2">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
