@@ -5,11 +5,11 @@ using ESFA.DC.JobStatus.Interface;
 
 namespace ESFA.DC.Jobs.Model
 {
-    public class FileUploadJob : IJob
+    public class FileUploadJob
     {
         public JobType JobType { get; set; }
 
-        public long? Ukprn { get; set; }
+        public long Ukprn { get; set; }
 
         public short Priority { get; set; }
 

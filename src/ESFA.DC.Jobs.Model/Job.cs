@@ -4,7 +4,7 @@ using ESFA.DC.JobStatus.Interface;
 
 namespace ESFA.DC.Jobs.Model.Base
 {
-    public interface IJob
+    public class Job
     {
         long JobId { get; set; }
 
