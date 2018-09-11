@@ -2,7 +2,7 @@
 
 namespace ESFA.DC.Jobs.Model
 {
-    public class FileUploadJobDto
+    public class FileUploadJob
     {
         public short JobType { get; set; }
 
