@@ -1,25 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using ESFA.DC.Jobs.Model.Enums;
 using ESFA.DC.JobStatus.Interface;
 
-namespace ESFA.DC.Jobs.Model.Base
+namespace ESFA.DC.Jobs.Model
 {
     public class Job
     {
-        long JobId { get; set; }
+        public long JobId { get; set; }
 
-        JobType JobType { get; set; }
+        public JobType JobType { get; set; }
 
-        JobStatusType Status { get; set; }
+        public JobStatusType Status { get; set; }
 
-        short Priority { get; set; }
+        public short Priority { get; set; }
 
-        DateTime DateTimeSubmittedUtc { get; set; }
+        public DateTime DateTimeSubmittedUtc { get; set; }
 
-        string RowVersion { get; set; }
+        public DateTime? DateTimeUpdatedUtc { get; set; }
 
-        string SubmittedBy { get; set; }
+        public string RowVersion { get; set; }
 
-        string NotifyEmail { get; set; }
+        public string SubmittedBy { get; set; }
+
+        public string NotifyEmail { get; set; }
     }
 }

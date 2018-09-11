@@ -1,4 +1,8 @@
-﻿namespace ESFA.DC.Jobs.Model.Enums
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ESFA.DC.Jobs.Model.Enums
 {
     public enum JobType
     {
