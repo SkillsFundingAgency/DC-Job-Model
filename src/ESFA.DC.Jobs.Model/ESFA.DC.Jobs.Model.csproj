@@ -3,11 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>ESFA.DC.Job.Dtos</PackageId>
-    <Authors>ESFA.DC.Job.Dtos</Authors>
-    <Company>ESFA.DC.Job.Dtos</Company>
-    <AssemblyName>ESFA.DC.Job.Dtos</AssemblyName>
-    <RootNamespace>ESFA.DC.Job.Dtos</RootNamespace>
+    <PackageId>ESFA.DC.Jobs.Model</PackageId>
+    <Authors>ESFA.DC.Jobs.Model</Authors>
+    <Company>ESFA.DC.Jobs.Model</Company>
+    <AssemblyName>ESFA.DC.Jobs.Model</AssemblyName>
+    <RootNamespace>ESFA.DC.Jobs.Model</RootNamespace>
+    <Product>ESFA.DC.Jobs.Model</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
