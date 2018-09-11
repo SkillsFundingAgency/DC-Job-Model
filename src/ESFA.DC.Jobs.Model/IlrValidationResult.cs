@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ESFA.DC.Jobs.Model.Reports.ValidationReport
+namespace ESFA.DC.Jobs.Model
 {
-    public class IlrValidationResultDto
+    public class IlrValidationResult
     {
         public int TotalLearners { get; set; }
 
