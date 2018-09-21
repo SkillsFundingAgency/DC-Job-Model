@@ -25,5 +25,7 @@ namespace ESFA.DC.Jobs.Model
         public string SubmittedBy { get; set; }
 
         public string NotifyEmail { get; set; }
+
+        public bool IsCrossLoaded { get; set; }
     }
 }
