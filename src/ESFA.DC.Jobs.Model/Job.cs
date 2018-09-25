@@ -26,6 +26,6 @@ namespace ESFA.DC.Jobs.Model
 
         public string NotifyEmail { get; set; }
 
-        public bool IsCrossLoaded { get; set; }
+        public bool CrossLoadingStatus { get; set; }
     }
 }
