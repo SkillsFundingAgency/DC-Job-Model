@@ -2,7 +2,7 @@
 
 namespace ESFA.DC.Jobs.Model
 {
-    public class IlrValidationResult
+    public class FileValidationResult
     {
         public int TotalLearners { get; set; }
 
@@ -13,5 +13,7 @@ namespace ESFA.DC.Jobs.Model
         public int TotalErrorLearners { get; set; }
 
         public int TotalWarningLearners { get; set; }
+
+        public string ErrorMessage { get; set; }
     }
 }
