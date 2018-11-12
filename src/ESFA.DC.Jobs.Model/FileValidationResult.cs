@@ -15,5 +15,9 @@ namespace ESFA.DC.Jobs.Model
         public int TotalWarningLearners { get; set; }
 
         public string ErrorMessage { get; set; }
+
+        public int TotalDataMatchLearners { get; set; }
+
+        public int TotalDataMatchErrors { get; set; }
     }
 }
