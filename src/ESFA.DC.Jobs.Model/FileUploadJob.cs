@@ -41,5 +41,7 @@ namespace ESFA.DC.Jobs.Model
         public JobStatusType? CrossLoadingStatus { get; set; }
 
         public bool? TermsAccepted { get; set; }
+
+        public int CollectionYear { get; set; }
     }
 }
