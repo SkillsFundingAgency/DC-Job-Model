@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ESFA.DC.Jobs.Model.Reports.ValidationReport
+namespace ESFA.DC.Jobs.Model
 {
-    public class IlrValidationResult
+    public class FileValidationResult
     {
         public int TotalLearners { get; set; }
 
@@ -13,5 +13,11 @@ namespace ESFA.DC.Jobs.Model.Reports.ValidationReport
         public int TotalErrorLearners { get; set; }
 
         public int TotalWarningLearners { get; set; }
+
+        public string ErrorMessage { get; set; }
+
+        public int TotalDataMatchLearners { get; set; }
+
+        public int TotalDataMatchErrors { get; set; }
     }
 }

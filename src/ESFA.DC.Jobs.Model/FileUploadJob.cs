@@ -1,15 +1,14 @@
 ﻿using System;
-using ESFA.DC.Jobs.Model.Base;
 using ESFA.DC.Jobs.Model.Enums;
 using ESFA.DC.JobStatus.Interface;
 
 namespace ESFA.DC.Jobs.Model
 {
-    public class IlrJob : IJob
+    public class FileUploadJob
     {
-        public JobType JobType { get; } = JobType.IlrSubmission;
+        public JobType JobType { get; set; }
 
-        public long? Ukprn { get; set; }
+        public long Ukprn { get; set; }
 
         public short Priority { get; set; }
 
@@ -38,5 +37,11 @@ namespace ESFA.DC.Jobs.Model
         public string CollectionName { get; set; }
 
         public string NotifyEmail { get; set; }
+
+        public JobStatusType? CrossLoadingStatus { get; set; }
+
+        public bool? TermsAccepted { get; set; }
+
+        public int CollectionYear { get; set; }
     }
 }
